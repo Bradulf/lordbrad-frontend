@@ -26,3 +26,44 @@ button {
 button:hover {
     border-color: var(--accent-purple);
 }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid var(--border-subtle);
+    background: var(--bg-primary);
+}
+
+.brand {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.centered {
+    min-height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.subtitle {
+    max-width: 520px;
+    color: var(--text-secondary);
+    margin: 1rem 0 2rem;
+}
+
+.primary {
+    background: transparent;
+    border: 1px solid var(--accent-green);
+    color: var(--accent-green);
+}
+
+.primary:hover {
+    background: var(--accent-green);
+    color: #0f111a;
+}
